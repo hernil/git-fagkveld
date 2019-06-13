@@ -4,7 +4,7 @@ function calculate(number1Field, number2Field, operationField) {
 
   switch (operationField.value) {
     case 'plus':
-      return number1 + number2;
+      return number2 + number1;
 
     case 'minus':
       return number1 - number2;
